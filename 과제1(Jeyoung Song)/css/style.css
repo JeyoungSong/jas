@@ -48,7 +48,7 @@ img:hover {
 /* 전체 레이아웃 */
 #wrap {
   width: 100%;  /* 전체 페이지 가로 100%로 지정 */ 
-  min-width: 1400px;  
+  min-width: 1200px;  
   /* min-width 는, PC에서는 정상적으로 나오나, 이미지를 배경에서 background: url("../images/bg.png") center/cover; 할때
   모바일에서 보면 잘려 보이는 현상이 생겨서 그와같은 현상을 해결하기 위해 min-width: 1400px;  넣어줌 */ 
 }
@@ -66,7 +66,7 @@ img:hover {
 }
 
 #wrap header .headerInner {
-  width: 1200px; /* 상단 영역의 로고와 메뉴가 위치할 가로 전체 사이즈 1400픽셀*/ 
+  width: 1100px; /* 상단 영역의 로고와 메뉴가 위치할 가로 전체 사이즈 1400픽셀*/ 
   height: 100px; 
   margin: 0 auto; /* 바깥 여백 - 상단과 하단은 0, 좌우는 auto로 지정시 중앙정렬됨 */ 
   display: flex; /* .logo와 .menu의 부모 위치인  .headerInner 에서, flex 지정시 좌우 정렬됨 */ 
@@ -150,7 +150,7 @@ img:hover {
 
 
 #wrap section.professor ul {
-  width: 1400px; 
+  width: 1200px; 
   display: flex; /* 사진 4개 전체 좌우로 정렬시킴 */
   justify-content: space-between; /* 지정해준 1400픽셀 기준으로 1번과 4번 사진은 양 끝에 붙고 나머지는 알아서 여백을 만들어 배치됨 */ 
   margin: 0 auto;  /* 바깥 여백 - 상단과 하단은 0, 좌우는 auto로 지정시 중앙정렬됨 */ 
